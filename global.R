@@ -4,6 +4,7 @@ library(shiny)
 library(shinythemes)
 library(DT)
 library(rio)
+library(lfe)
 import_csv = function(..., keepLeadingZeros = TRUE)
   rio::import(..., keepLeadingZeros = keepLeadingZeros, setclass = "tibble")
 
